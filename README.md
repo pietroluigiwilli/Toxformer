@@ -3,13 +3,13 @@
 ## Transformer enabled toxicity prediction based on chemical structure
 ## UZH
 
-1.	Group Members
-Claudia Lourenço Rodrigues. Faculty of Science.
-Ekaterina Maevskaia. Faculty of Science.
-Pietro Willi. Department of Chemistry.
-Erik Schiess. Department of Economics. 
+## 1.	Group Members<br>
+Claudia Lourenço Rodrigues. Faculty of Science.<br>
+Ekaterina Maevskaia. Faculty of Science.<br>
+Pietro Willi. Department of Chemistry.<br>
+Erik Schiess. Department of Economics.<br>
 
-
+## 1.	General Topic<br>
 Before any clinical trials are performed any substance intended to become approved as an Active Pharmaceutical Ingredient needs to undergo extensive toxicity screenings during the preclinical development. The screenings are performed on cells and then on animals. Animal testing in Europe is typically exposed to strict regulations due to ethical considerations.[1] This turns the screenings into an expensive and lengthy procedure. In silico prediction of the toxicity reduces the amount of potentially dangerous substances and lowers the necessity of in vivo experiments and therefore shortens the time and cost of the study.
 
 The toxicity of a substance depends on the extent of its ability to interfere with biological processes.[2] It can do so by various mechanisms, these can be biological, chemical, physical, radioactive or behavioural. Toxicity is measured indirectly through its effect. However the effect of toxicity is different depending on the target species, species individual, and substance administration. As such toxicity data is usually recorded as the average mass of substance per unit mass of target organism required to kill half of the tested population of target organisms. This metric is known as median lethal dose, LD50. 
