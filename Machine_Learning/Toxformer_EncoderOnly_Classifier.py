@@ -7,7 +7,7 @@ class Head(torch.nn.Module):
         self.key = torch.nn.Linear(int(n_embd), int(head_size), bias=False)
         self.query = torch.nn.Linear(int(n_embd), int(head_size), bias=False)
         self.value = torch.nn.Linear(int(n_embd), int(head_size), bias=False)
-        self.dropout = torch.nn.Dropout(dropout)
+        self.dropout = torch.nn.Dropout(dropout) # fix prob
 
     def forward(self, x):
         B,T,C = x.shape
