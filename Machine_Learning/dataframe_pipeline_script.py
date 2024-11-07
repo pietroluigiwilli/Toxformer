@@ -106,7 +106,7 @@ class Dataset(torch.utils.data.Dataset):
         print(f"Number of unique embedding values: {self.n_map}")
             
         self.x = self.data[:,1:] 
-        self.t = self.data[:,0]
+        self.t = self.data[:,0] 
         
         if "level" in self.label:
             self.t -= 1
@@ -188,7 +188,6 @@ class Dataset(torch.utils.data.Dataset):
 
     def data_tokens(self, max_len=None):
         tokens = []
-        
         if self.qed == True:
             local = ["Surface_Area",
                      'ALERTS',
