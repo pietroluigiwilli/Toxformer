@@ -1,7 +1,7 @@
 # Toxformer
 
 ## Transformer enabled toxicity prediction based on chemical structure
-## University of Zurich, Introduction to Data Science
+## University of Zurich
 
 ## 1.	Group Members<br>
 Claudia Lourenço Rodrigues. Faculty of Science.<br>
